@@ -19,7 +19,7 @@
        <div class="sidebar-body">
          <ul class="sidebar-body-menu">
            <li>
-             <a class="active" href="/"><span class="icon home" aria-hidden="true"></span>Dashboard</a>
+             <a class="active" href="<?= base_url('dashboard'); ?>"><span class="icon home" aria-hidden="true"></span>Dashboard</a>
            </li>
            <!-- <li>
              <a class="show-cat-btn" href="##">
@@ -87,27 +87,27 @@
              </ul>
            </li>
            <li> -->
-             <a href="comments.html">
+             <a href="<?= base_url('compose'); ?>">
                <span class="icon message" aria-hidden="true"></span>
                Compose
              </a>
-             <a href="comments.html">
+             <a href="<?= base_url('incoming'); ?>">
                <span class="icon message" aria-hidden="true"></span>
                Incoming
              </a>
-             <a href="comments.html">
+             <a href="<?= base_url('outgoing'); ?>">
                <span class="icon message" aria-hidden="true"></span>
                Outgoing
              </a>
-             <a href="comments.html">
+             <a href="<?= base_url('maintenance'); ?>">
                <span class="icon message" aria-hidden="true"></span>
                Maintenance
              </a>
-             <a href="comments.html">
+             <a href="<?= base_url('reports'); ?>">
                <span class="icon message" aria-hidden="true"></span>
                Reports
              </a>
-             <a href="comments.html">
+             <a href="<?= base_url('user_management'); ?>">
                <span class="icon message" aria-hidden="true"></span>
                User Management
              </a>

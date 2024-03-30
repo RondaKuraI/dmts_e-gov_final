@@ -25,12 +25,8 @@
                 <?= $this->include('layouts/main_nav'); ?>
             </nav>
 
-            <!-- ! Main
-            <?= $this->include('layouts/main'); ?> -->
-
-            <div class="app">
-                <?= $this->renderSection('content') ?>
-            </div>
+            <!-- ! Main -->
+            <?= $this->include('layouts/main'); ?>
 
             <!-- Footer  -->
             <?= $this->include('layouts/footer'); ?>
